@@ -3,7 +3,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { Layout } from "@/components/layout"
-import { buttonVariants } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 
 export default function IndexPage() {
   return (
@@ -47,6 +47,9 @@ export default function IndexPage() {
           </Link>
         </div>
       </section>
+      <div className="flex justify-center">
+        <Button >haha</Button>
+      </div>
     </Layout>
   )
 }
